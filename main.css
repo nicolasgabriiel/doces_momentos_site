@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #db4258;
+    color: #fefefe;
+    border-bottom: 2px solid #fefefe;
+}
+header h1,
+.container h2,
+.container h3,
+header li a
+{
+    font-family: 'Bungee', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+header h1{
+    margin: 20px 0;
+}
+.container h2,
+.container h3{
+    margin: 10px 0;
+    color: #fefefe;
+}
+.container h2{
+    font-size: 28px;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container li{
+    display: inline-block;
+    margin: 0 16px 0 0;
+}
+.container li a {
+    cursor: pointer;
+    transition: 0.2s;
+    color: #fefefe;
+    text-decoration: none;
+}
+.container li a:hover {
+    color: rgb(214, 208, 208);
+}
+.doces-img{
+    width: 50%;
+    margin: 20px;
+}
+main{
+    background: linear-gradient( to bottom , #db4258, #f68f9d) ;
+}
+#about .container{
+    align-items: flex-start;
+}
+.container-img img{
+    height: 40px;
+    margin-left: 10px;
+}
+.container p {
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+}
+#contact .container{
+    display: block;
+}
+#contact .container h2{
+    display: block;
+}
+#contact .container .box{
+    display: flex;
+    justify-content: space-between;
+}
+.container .redes-sociais{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.container .redes-sociais img{
+    transition: 0.2s;
+    height: 32px;
+}
+.container .redes-sociais img:hover{
+    scale: 1.05;
+}
+.container .box div:last-child{
+    text-align: center;
+}
+.container input, 
+button,
+textarea{
+    display: block;
+    width: 280px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.container input:focus,
+.container textarea:focus{
+    outline: 1px solid #ed7686;
+}
+.container textarea{
+    resize: none;
+    height: 140px;
+}
+.container button{
+    background: white;
+    cursor: pointer;
+    font-family: 'Bungee', sans-serif;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: none;
+    transition: 0.2s;
+    margin-bottom: 50px;
+}
+.container button:hover{
+    background: #db4258;
+    color: white;
+}
+footer{
+    background-color: #f68f9d;
+    border-top: 2px solid white;
+}
+footer .container p {
+    margin: 30px auto;
+}
